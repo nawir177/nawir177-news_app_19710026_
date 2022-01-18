@@ -1,4 +1,4 @@
-name: news_app_197110008
+name: news_app_197110026
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -60,7 +60,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/img/midah.jpeg
+    - assets/img/nawir.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -75,9 +75,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: SecularOne
+    - family: BebasNeue
       fonts:
-        - asset: fonts/SecularOne-Regular.ttf
+        - asset: fonts/BebasNeue-Regular.ttf
         
     - family: Frijole
       fonts:

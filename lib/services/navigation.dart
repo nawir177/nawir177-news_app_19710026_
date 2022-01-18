@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:news_app_197110008/main.dart';
+import 'package:news_app_197110026/main.dart';
 
 //Membuat Halaman Crad
 class HalamanPertama extends StatelessWidget {
@@ -8,8 +8,8 @@ class HalamanPertama extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Pilihan Berita"),
-        backgroundColor: Colors.pink[300],
+        title: new Text("Menu Pilihan Berita"),
+        backgroundColor: Colors.blue,
       ),
       // ignore: avoid_unnecessary_containers
       body: Container(
@@ -19,11 +19,23 @@ class HalamanPertama extends StatelessWidget {
           Column(
             children: [
               IconButton(
-                icon: new Icon(Icons.business, color: Colors.black54),
+                icon: new Icon(Icons.account_tree_rounded, color: Colors.blue),
+                onPressed: () {
+                  Navigator.pushNamed(context, 'teknologi');
+                },
+                iconSize: 70.0,
+              ),
+              Text("Teknologi")
+            ],
+          ),
+          Column(
+            children: [
+              IconButton(
+                icon: new Icon(Icons.attach_money, color: Colors.green[900]),
                 onPressed: () {
                   Navigator.pushNamed(context, 'bisnis');
                 },
-                iconSize: 100.0,
+                iconSize: 70.0,
               ),
               Text("Bisnis")
             ],
@@ -31,11 +43,12 @@ class HalamanPertama extends StatelessWidget {
           Column(
             children: [
               IconButton(
-                icon: new Icon(Icons.sports, color: Colors.red),
+                icon: new Icon(Icons.sports_volleyball_sharp,
+                    color: Colors.black),
                 onPressed: () {
                   Navigator.pushNamed(context, 'olahraga');
                 },
-                iconSize: 100.0,
+                iconSize: 70.0,
               ),
               Text("Olahraga")
             ],
@@ -43,12 +56,11 @@ class HalamanPertama extends StatelessWidget {
           Column(
             children: [
               IconButton(
-                icon:
-                    new Icon(Icons.contact_mail_outlined, color: Colors.black),
+                icon: new Icon(Icons.person_pin_sharp, color: Colors.black),
                 onPressed: () {
                   Navigator.pushNamed(context, 'profile');
                 },
-                iconSize: 100.0,
+                iconSize: 70.0,
               ),
               Text("Profile")
             ],

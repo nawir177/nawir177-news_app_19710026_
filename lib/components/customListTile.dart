@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_197110008/model/article_model.dart';
-import 'package:news_app_197110008/pages/articles_details_page.dart';
+import 'package:news_app_197110026/model/article_model.dart';
+import 'package:news_app_197110026/pages/articles_details_page.dart';
 
 Widget customListTile(Article article, BuildContext context) {
   return InkWell(

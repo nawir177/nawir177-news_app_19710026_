@@ -4,8 +4,8 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:news_app_197110008/main.dart';
-import 'package:news_app_197110008/services/navigation.dart';
+import 'package:news_app_197110026/main.dart';
+import 'package:news_app_197110026/services/navigation.dart';
 
 class SplashScreen extends StatefulWidget {
   _SplashScreen createState() => _SplashScreen();
@@ -39,14 +39,14 @@ class _SplashScreen extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Icon(
-                Icons.now_widgets_sharp,
+                Icons.menu_book_sharp,
                 size: 100.0,
-                color: Colors.pink,
+                color: Colors.blue,
               ),
               Text(
-                "News APP",
+                "Aplikasi Baca Berita",
                 style: TextStyle(
-                    fontSize: 20, color: Colors.pink, fontFamily: 'SecularOne'),
+                    fontSize: 20, color: Colors.blue, fontFamily: 'Frijole'),
               ),
             ],
           )

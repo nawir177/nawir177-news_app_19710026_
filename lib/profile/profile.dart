@@ -1,109 +1,110 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_197110008/main.dart';
+import 'package:news_app_197110026/main.dart';
 
 class profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink[50],
+      backgroundColor: Colors.white,
       body: SafeArea(
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircleAvatar(
             radius: 55.0,
-            backgroundImage: AssetImage('assets/img/midah.jpeg'),
+            backgroundImage: AssetImage('assets/img/nawir.png'),
+            backgroundColor: Colors.orange[300],
           ),
           SizedBox(
             height: 30.0,
             width: 150.0,
             child: Divider(
-              color: Colors.pink[300],
+              color: Colors.blue,
             ),
           ),
           Text(
-            "Siti Nur Hamidah",
+            "M. NAWIR",
             style: TextStyle(
               fontFamily: 'BebasNeue',
-              color: Colors.purple[300],
+              color: Colors.orange[600],
               fontSize: 25,
             ),
           ),
           Text(
             "FLUTTER DEVELOVER",
             style: TextStyle(
-              color: Colors.pink[200],
+              color: Colors.blue[900],
               fontSize: 20,
               letterSpacing: 2.5,
             ),
           ),
           Card(
             margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-            color: Colors.white,
+            color: Colors.blue,
             child: ListTile(
               leading: Icon(
                 Icons.insert_drive_file_outlined,
-                color: Colors.pink,
+                color: Colors.white,
               ),
               title: Text(
-                "NPM : 19710008",
-                style: TextStyle(color: Colors.pink),
+                "NPM : 19710026",
+                style: TextStyle(color: Colors.white),
               ),
             ),
           ),
           Card(
             margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
-            color: Colors.white,
+            color: Colors.blue,
             child: ListTile(
               leading: Icon(
                 Icons.home_filled,
-                color: Colors.pink,
+                color: Colors.white,
               ),
               title: Text(
                 "5A SI REG PAGI BJM",
-                style: TextStyle(color: Colors.pink),
+                style: TextStyle(color: Colors.white),
               ),
             ),
           ),
           Card(
             margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
-            color: Colors.white,
+            color: Colors.blue,
             child: ListTile(
               leading: Icon(
                 Icons.home,
-                color: Colors.pink,
+                color: Colors.white,
               ),
               title: Text(
-                "Alamat :Jl.Terminal Handil Bakti, Komplek Hamparan Warga Indah IX ",
-                style: TextStyle(color: Colors.pink),
+                "Alamat :Jl.Cemara raya II Banjarmasin Utara",
+                style: TextStyle(color: Colors.white),
               ),
             ),
           ),
           Card(
             margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
-            color: Colors.white,
+            color: Colors.blue,
             child: ListTile(
               leading: Icon(
-                Icons.date_range_sharp,
-                color: Colors.pink,
+                Icons.date_range,
+                color: Colors.white,
               ),
               title: Text(
-                "TTL : Banjarmasin, 23-02-2001",
-                style: TextStyle(color: Colors.pink),
+                "TTL : Sekapung, 26-10-2000",
+                style: TextStyle(color: Colors.white),
               ),
             ),
           ),
           Card(
             margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
-            color: Colors.white,
+            color: Colors.blue,
             child: ListTile(
               leading: Icon(
                 Icons.contact_page,
-                color: Colors.pink,
+                color: Colors.white,
               ),
               title: Text(
-                "CONTACT :+62 831-4149-7446",
-                style: TextStyle(color: Colors.pink),
+                "CONTACT :082290773951",
+                style: TextStyle(color: Colors.white),
               ),
             ),
           ),
